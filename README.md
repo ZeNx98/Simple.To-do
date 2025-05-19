@@ -1,22 +1,37 @@
-# simpleTo-Do
-**simpleTo-Do** is a simple C program that implements a command-line to-do list manager.
-It allows users to add, view, edit, delete, search, and sort tasks, as well as save and load tasks from a file (tasks.txt).
-Each task has an ID, completion status, name, and description.
-The program uses a singly linked list to manage tasks in memory and provides basic persistence by reading from and writing to a text file.
+# To-Do List Manager
 
-**Features:**
+## Overview
+This project is a simple command-line to-do list manager implemented in C. It allows users to manage their tasks efficiently through a terminal interface.
 
--Add new tasks
+## Features
+- **Add Tasks**: Create new tasks with a name and description.
+- **View Tasks**: Display all tasks with their details, including whether they are completed.
+- **Edit Tasks**: Modify existing tasks, including changing their name, description, and completion status.
+- **Delete Tasks**: Remove specific tasks from the list.
+- **Mark Tasks as Done**: Update the status of tasks to indicate completion.
+- **Delete All Completed Tasks**: Remove all tasks that have been marked as done.
+- **Save and Load Tasks**: Persist tasks to a file (`tasks.txt`) for future sessions.
 
--View all tasks
+## Usage
+1. Compile the program using a C compiler.
+2. Run the executable from the terminal.
+3. Follow the on-screen menu to manage your tasks.
 
--Edit or delete tasks by ID
+## Compilation
+To compile the program, use the following command:
+```
+gcc ToDoList.c -o ToDoList
+```
 
--Mark tasks as done
+## Running the Program
+After compilation, run the program with:
+```
+./ToDoList
+```
 
--Delete all completed tasks
+## File Structure
+- `ToDoList.c`: Contains the implementation of the to-do list manager.
+- `tasks.txt`: (Automatically created) Stores the tasks persistently.
 
--Save/load tasks to/from a file
-
--(Stubs for search and sort functionality)
-
+## License
+This project is open-source and available for modification and distribution.
