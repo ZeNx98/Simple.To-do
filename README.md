@@ -7,9 +7,16 @@ The program uses a singly linked list to manage tasks in memory and provides bas
 **Features:**
 
 -Add new tasks
+
 -View all tasks
+
 -Edit or delete tasks by ID
+
 -Mark tasks as done
+
 -Delete all completed tasks
+
 -Save/load tasks to/from a file
+
 -(Stubs for search and sort functionality)
+
