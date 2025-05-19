@@ -1,4 +1,3 @@
-// filepath: ToDoList/ToDoList.c
 /*
 ToDoList.c - Simple Command-Line To-Do List Manager in C
 
